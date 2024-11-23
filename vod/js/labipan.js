@@ -54,8 +54,8 @@ class Labipan extends WebApiBase {
   async getVideoList(args) {
     var backData = new RepVideoList();
     let url =
-      UZUtils.removeTrailingSlash(this.webSite) +
-      `/index.php/vod/show/id/${args.url}/page/${args.page}.html`;
+        UZUtils.removeTrailingSlash(this.webSite) +
+        `/index.php/vod/show/id/${args.url}/page/${args.page}.html`;
     try {
       const pro = await req(url);
       backData.error = pro.error;
@@ -70,9 +70,9 @@ class Labipan extends WebApiBase {
           videoDet.vod_pic = $(e).find('.module-item-pic img').attr('data-src');
           videoDet.vod_remarks = $(e).find('.module-item-text').text();
           videoDet.vod_year = $(e)
-            .find('.module-item-caption span')
-            .first()
-            .text();
+              .find('.module-item-caption span')
+              .first()
+              .text();
           videos.push(videoDet);
         });
       }
@@ -100,8 +100,8 @@ class Labipan extends WebApiBase {
         vodDetail.vod_id = args.url;
         vodDetail.vod_name = $('.page-title')[0].children[0].data;
         vodDetail.vod_pic = $($('.mobile-play')).find('.lazyload')[0].attribs[
-          'data-src'
-        ];
+            'data-src'
+            ];
 
         let video_items = $('.video-info-itemtitle');
 
@@ -110,13 +110,13 @@ class Labipan extends WebApiBase {
 
           let vItems = $(item).next().find('a');
           let value = vItems
-            .map((i, el) => {
-              let text = $(el).text().trim(); // 获取并去除空白字符
-              return text ? text : null; // 只有非空的文本才返回
-            })
-            .get() // 将 jQuery 对象转换为普通数组
-            .filter(Boolean) // 过滤掉 null 和空字符串
-            .join(', '); // 用逗号和空格分割
+              .map((i, el) => {
+                let text = $(el).text().trim(); // 获取并去除空白字符
+                return text ? text : null; // 只有非空的文本才返回
+              })
+              .get() // 将 jQuery 对象转换为普通数组
+              .filter(Boolean) // 过滤掉 null 和空字符串
+              .join(', '); // 用逗号和空格分割
 
           if (key.includes('剧情')) {
             vodDetail.vod_content = $(item).next().find('p').text().trim();
@@ -164,7 +164,7 @@ class Labipan extends WebApiBase {
     var backData = new RepVideoList();
     try {
       let searchUrl = `${UZUtils.removeTrailingSlash(
-        this.webSite
+          this.webSite
       )}/index.php/vod/search/page/${args.page}/wd/${args.searchWord}.html`;
       let repData = await req(searchUrl);
       this.checkVerify(searchUrl, repData.data);
@@ -176,8 +176,8 @@ class Labipan extends WebApiBase {
         video.vod_id = $(item).find('.video-serial')[0].attribs.href;
         video.vod_name = $(item).find('.video-serial')[0].attribs.title;
         video.vod_pic = $(item).find('.module-item-pic > img')[0].attribs[
-          'data-src'
-        ];
+            'data-src'
+            ];
         video.vod_remarks = $($(item).find('.video-serial')[0]).text();
         backData.data.push(video);
       }

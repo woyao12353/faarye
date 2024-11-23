@@ -1,8 +1,8 @@
 // 类名要特殊
-class Yunxing extends WebApiBase {
+class Zhizhen extends WebApiBase {
   constructor() {
     super();
-    this.webSite = 'https://4k.4u4.cn';
+    this.webSite = 'https://mihdr.top/';
   }
   /**
    * 异步获取分类列表的方法。
@@ -14,32 +14,32 @@ class Yunxing extends WebApiBase {
     backData.data = [
       {
         type_id: '1',
-        type_name: '云星电影',
+        type_name: '至臻电影',
         hasSubclass: false,
       },
       {
         type_id: '2',
-        type_name: '云星剧集',
-        hasSubclass: false,
-      },
-      {
-        type_id: '4',
-        type_name: '云星动漫',
+        type_name: '至臻剧集',
         hasSubclass: false,
       },
       {
         type_id: '3',
-        type_name: '云星综艺',
+        type_name: '至臻动漫',
         hasSubclass: false,
       },
       {
-        type_id: '20',
-        type_name: '云星短剧',
+        type_id: '4',
+        type_name: '至臻综艺',
         hasSubclass: false,
       },
       {
-        type_id: '21',
-        type_name: '云星音乐',
+        type_id: '25',
+        type_name: '至臻视觉',
+        hasSubclass: false,
+      },
+      {
+        type_id: '5',
+        type_name: '至臻短剧',
         hasSubclass: false,
       },
     ];
@@ -54,8 +54,8 @@ class Yunxing extends WebApiBase {
   async getVideoList(args) {
     var backData = new RepVideoList();
     let url =
-      UZUtils.removeTrailingSlash(this.webSite) +
-      `/index.php/vod/show/id/${args.url}/page/${args.page}.html`;
+        UZUtils.removeTrailingSlash(this.webSite) +
+        `/index.php/vod/show/id/${args.url}/page/${args.page}.html`;
     try {
       const pro = await req(url);
       backData.error = pro.error;
@@ -70,9 +70,9 @@ class Yunxing extends WebApiBase {
           videoDet.vod_pic = $(e).find('.module-item-pic img').attr('data-src');
           videoDet.vod_remarks = $(e).find('.module-item-text').text();
           videoDet.vod_year = $(e)
-            .find('.module-item-caption span')
-            .first()
-            .text();
+              .find('.module-item-caption span')
+              .first()
+              .text();
           videos.push(videoDet);
         });
       }
@@ -100,8 +100,8 @@ class Yunxing extends WebApiBase {
         vodDetail.vod_id = args.url;
         vodDetail.vod_name = $('.page-title')[0].children[0].data;
         vodDetail.vod_pic = $($('.mobile-play')).find('.lazyload')[0].attribs[
-          'data-src'
-        ];
+            'data-src'
+            ];
 
         let video_items = $('.video-info-itemtitle');
 
@@ -110,13 +110,13 @@ class Yunxing extends WebApiBase {
 
           let vItems = $(item).next().find('a');
           let value = vItems
-            .map((i, el) => {
-              let text = $(el).text().trim(); // 获取并去除空白字符
-              return text ? text : null; // 只有非空的文本才返回
-            })
-            .get() // 将 jQuery 对象转换为普通数组
-            .filter(Boolean) // 过滤掉 null 和空字符串
-            .join(', '); // 用逗号和空格分割
+              .map((i, el) => {
+                let text = $(el).text().trim(); // 获取并去除空白字符
+                return text ? text : null; // 只有非空的文本才返回
+              })
+              .get() // 将 jQuery 对象转换为普通数组
+              .filter(Boolean) // 过滤掉 null 和空字符串
+              .join(', '); // 用逗号和空格分割
 
           if (key.includes('剧情')) {
             vodDetail.vod_content = $(item).next().find('p').text().trim();
@@ -164,7 +164,7 @@ class Yunxing extends WebApiBase {
     var backData = new RepVideoList();
     try {
       let searchUrl = `${UZUtils.removeTrailingSlash(
-        this.webSite
+          this.webSite
       )}/index.php/vod/search/page/${args.page}/wd/${args.searchWord}.html`;
       let repData = await req(searchUrl);
       this.checkVerify(searchUrl, repData.data);
@@ -176,8 +176,8 @@ class Yunxing extends WebApiBase {
         video.vod_id = $(item).find('.video-serial')[0].attribs.href;
         video.vod_name = $(item).find('.video-serial')[0].attribs.title;
         video.vod_pic = $(item).find('.module-item-pic > img')[0].attribs[
-          'data-src'
-        ];
+            'data-src'
+            ];
         video.vod_remarks = $($(item).find('.video-serial')[0]).text();
         backData.data.push(video);
       }
@@ -213,4 +213,4 @@ class Yunxing extends WebApiBase {
 }
 
 // json 中 instance 的值，这个名称一定要特殊
-var yunxing20241030 = new Yunxing();
+var zhizhen20241029 = new Zhizhen();

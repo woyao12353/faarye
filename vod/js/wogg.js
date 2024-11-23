@@ -1,10 +1,8 @@
 // ignore
-import {WebApiBase, UZArgs, RepVideoClassList, RepVideoList, VideoDetail, RepVideoDetail} from '../../core/uzVideo.js'
+import {} from '../../core/uzVideo.js'
 import {} from '../../core/uzHome.js'
-// import {} from '../../core/uz3lib.js'
-import {UZUtils, req} from '../../core/uzUtils.js'
-
-import * as cheerio from 'cheerio';
+import {} from '../../core/uz3lib.js'
+import {} from '../../core/uzUtils.js'
 // ignore
 
 // 类名要特殊
@@ -86,9 +84,7 @@ class Wogg20240929 extends WebApiBase {
                 })
             }
             backData.data = videos
-        } catch (error) {
-            console.log(error)
-        }
+        } catch (error) {}
         return JSON.stringify(backData)
     }
 
@@ -220,19 +216,3 @@ class Wogg20240929 extends WebApiBase {
 
 // json 中 instance 的值，这个名称一定要特殊
 var wogg20240929 = new Wogg20240929()
-
-// ignore
-// let repVideoClassList = await wogg20240929.getClassList(new UZArgs())
-// console.log(repVideoClassList)
-//
-// let uzArgs = new UZArgs();
-// uzArgs.url = "2"
-// uzArgs.page = 1
-// let repVideoList = await wogg20240929.getVideoList(uzArgs)
-// console.log(repVideoList)
-
-let uzArgsDetail = new UZArgs();
-uzArgsDetail.url = '/voddetail/89221.html'
-let repVideoDetail = await wogg20240929.getVideoDetail(uzArgsDetail)
-console.log(repVideoDetail)
-// ignore
