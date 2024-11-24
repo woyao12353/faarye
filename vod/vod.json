@@ -1,5 +1,15 @@
 [
   {
+    "name": "趣盘搜",
+    "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/funletu.txt",
+    "codeID": "3hnET89Dbzh5Y2ab",
+    "instance": "funletu20241124",
+    "webSite": "https://pan.funletu.com",
+    "remark": "仅搜索",
+    "version": "1",
+    "type": 100
+  },
+  {
     "name": "小云搜索",
     "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/yunso.txt",
     "codeID": "IHVxV3xGj0S1LIC7",

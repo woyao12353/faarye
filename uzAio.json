@@ -17,7 +17,17 @@
     ],
     "vod": [
         {
-            "name": "小云搜索",
+            "name": "pv趣盘搜",
+            "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/funletu.txt",
+            "codeID": "3hnET89Dbzh5Y2ab",
+            "instance": "funletu20241124",
+            "webSite": "https://pan.funletu.com",
+            "remark": "仅搜索",
+            "version": "1",
+            "type": 100
+        },
+        {
+            "name": "pv小云搜索",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/yunso.txt",
             "codeID": "IHVxV3xGj0S1LIC7",
             "instance": "yunso20241124",
@@ -27,56 +37,56 @@
             "type": 100
         },
         {
-            "name": "蜡笔盘",
+            "name": "pv蜡笔盘",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/labipan.js",
             "instance": "labipan20241028",
             "webSite": "http://labipan.com",
             "remark": "网盘"
         },
         {
-            "name": "木偶哥哥",
+            "name": "pv木偶哥哥",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/mogg.js",
             "instance": "mogg20241023",
             "webSite": "http://www.mogg.top",
             "remark": "网盘"
         },
         {
-            "name": "玩偶哥哥",
+            "name": "pv玩偶哥哥",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/wogg.js",
             "instance": "wogg20240929",
             "webSite": "https://www.wogg.net",
             "remark": "网盘"
         },
         {
-            "name": "⚡️至臻网盘",
+            "name": "pv⚡️至臻网盘",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/zhizhen.js",
             "instance": "zhizhen20241029",
             "webSite": "https://mihdr.top/",
             "remark": "至臻网盘"
         },
         {
-            "name": "🤠多多影音",
+            "name": "pv🤠多多影音",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/duopan.js",
             "instance": "duopan20241030",
             "webSite": "https://tv.yydsys.top/",
             "remark": "多多网盘"
         },
         {
-            "name": "🐲欧歌资源",
+            "name": "pv🐲欧歌资源",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/ougepan.js",
             "instance": "ougepan20241030",
             "webSite": "https://woog.nxog.eu.org/",
             "remark": "欧歌网盘"
         },
         {
-            "name": "🍔奥秘影视",
+            "name": "pv🍔奥秘影视",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/aomipan.js",
             "instance": "aomipan20241030",
             "webSite": "https://vip.omii.top/",
             "remark": "奥秘网盘"
         },
         {
-            "name": "⛅️云星日记",
+            "name": "pv⛅️云星日记",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/yunxing.js",
             "instance": "yunxing20241030",
             "webSite": "https://4k.4u4.cn",
