@@ -1,5 +1,15 @@
 [
   {
+    "name": "小云搜索",
+    "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/yunso.txt",
+    "codeID": "8mrTs7S4krpne5JA",
+    "instance": "yunso20241124",
+    "webSite": "https://www.yunso.net",
+    "remark": "网盘搜索",
+    "version": "1",
+    "type": 100
+  },
+  {
     "name": "蜡笔盘",
     "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/labipan.js",
     "instance": "labipan20241028",

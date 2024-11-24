@@ -21,5 +21,8 @@ https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extension
 uz影视 -> 设置 -> 数据管理 -> 右上角 + -> 输入链接 -> 确定
 
 # 更新记录
+### 2024-11-24
+1. 新增yunso
+
 ### 2024-11-23
 1. 初始化
