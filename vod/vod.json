@@ -2,11 +2,11 @@
   {
     "name": "小云搜索",
     "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/yunso.txt",
-    "codeID": "8mrTs7S4krpne5JA",
+    "codeID": "IHVxV3xGj0S1LIC7",
     "instance": "yunso20241124",
     "webSite": "https://www.yunso.net",
     "remark": "网盘搜索",
-    "version": "1",
+    "version": "2",
     "type": 100
   },
   {
