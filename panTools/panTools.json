@@ -1,7 +1,7 @@
 {
   "name": "pv网盘解析工具",
   "url": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/panTools/panTools.txt",
-  "codeID": "pwIRux6FNn3h7Wav",
+  "codeID": "XEOcYVcU5dNwkeBh",
   "env": "天翼Cookie##用于播放天翼网盘视频&&UCCookie##用于播放UC网盘视频&&夸克Cookie##用于播放Quark网盘视频&&阿里Token32##用于播放阿里网盘视频&&阿里Token280##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称",
   "version": "1732379692"
 }
