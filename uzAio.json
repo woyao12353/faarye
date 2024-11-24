@@ -19,7 +19,7 @@
         {
             "name": "pv趣盘搜",
             "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/funletu.txt",
-            "codeID": "S6qCF6SkfyxPQGFa",
+            "codeID": "LO5aQSJYBZLrRD1g",
             "instance": "funletu20241124",
             "webSite": "https://pan.funletu.com",
             "remark": "仅搜索",
