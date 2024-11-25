@@ -85,22 +85,6 @@
             "webSite": "https://woog.nxog.eu.org/",
             "remark": "欧歌网盘",
             "type": 100
-        },
-        {
-            "name": "pv🍔奥秘影视",
-            "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/aomipan.js",
-            "instance": "aomipan20241030",
-            "webSite": "https://vip.omii.top/",
-            "remark": "奥秘网盘",
-            "type": 100
-        },
-        {
-            "name": "pv⛅️云星日记",
-            "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/yunxing.js",
-            "instance": "yunxing20241030",
-            "webSite": "https://4k.4u4.cn",
-            "remark": "云星网盘",
-            "type": 100
         }
     ]
 }
