@@ -21,6 +21,9 @@ https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extension
 uz影视 -> 设置 -> 数据管理 -> 右上角 + -> 输入链接 -> 确定
 
 # 更新记录
+### 2024-11-27
+1. 新增雷鲸
+
 ### 2024-11-24
 1. 新增yunso
 2. 新增趣盘搜
