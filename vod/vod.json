@@ -1,5 +1,15 @@
 [
   {
+    "name": "雷鲸",
+    "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/leijing.txt",
+    "codeID": "NHIx3nRnTMjqVUFZ",
+    "instance": "leiJing20241126",
+    "webSite": "https://www.leijing.xyz",
+    "remark": "天翼网盘",
+    "version": "1",
+    "type": 100
+  },
+  {
     "name": "pv趣盘搜",
     "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/funletu.txt",
     "codeID": "S6qCF6SkfyxPQGFa",
