@@ -24,12 +24,12 @@ class Mogg20241028 extends WebApiBase {
       },
       {
         type_id: '3',
-        type_name: '動漫',
+        type_name: '臻彩',
         hasSubclass: false,
       },
       {
         type_id: '4',
-        type_name: '纪录片',
+        type_name: '动漫',
         hasSubclass: false,
       },
     ];
