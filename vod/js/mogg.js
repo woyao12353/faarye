@@ -2,7 +2,7 @@
 class Mogg20241028 extends WebApiBase {
   constructor() {
     super();
-    this.webSite = 'http://www.mogg.top';
+    this.webSite = 'https://wof8.xyz';
   }
   /**
    * 异步获取分类列表的方法。
