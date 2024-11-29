@@ -11,10 +11,13 @@
 | :--------------: | :------: | :----------: | :----------: |
 | uz影视 基础能力 | 视频扩展 | 推荐首页扩展 | 网盘工具扩展 |
 
-
-# 订阅
+# 订阅1
 
 https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/uzAio.json
+# 订阅2
+
+https://ghp.ci/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/uzAio2.json
+## 网络问题切换订阅地址
 
 # 添加方式
 
