@@ -12,11 +12,11 @@
   {
     "name": "pv天逸搜",
     "api": "https://ghproxy.cn/https://raw.githubusercontent.com/proversion2024/uz-extensions/refs/heads/master/vod/js/tianyiso.txt",
-    "codeID": "j1qGOeltjJTfPbI7",
+    "codeID": "DU9z425w42hk9B8l",
     "instance": "tianyiso20241129",
     "webSite": "https://www.tianyiso.com",
     "remark": "仅搜索",
-    "version": "2",
+    "version": "3",
     "type": 100
   },
   {
