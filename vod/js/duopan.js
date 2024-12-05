@@ -165,7 +165,7 @@ class Duopan extends WebApiBase {
     try {
       let searchUrl = `${UZUtils.removeTrailingSlash(
           this.webSite
-      )}/page/${args.page}/s/${args.searchWord}.html`;
+      )}/s/${args.searchWord}.html`;
       let repData = await req(searchUrl);
       this.checkVerify(searchUrl, repData.data);
       const $ = cheerio.load(repData.data);
