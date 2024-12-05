@@ -2,7 +2,7 @@
 class Duopan extends WebApiBase {
   constructor() {
     super();
-    this.webSite = 'https://tv.yydsys.top/';
+    this.webSite = 'https://pan.wof8.xyz/';
   }
   /**
    * 异步获取分类列表的方法。
@@ -165,7 +165,7 @@ class Duopan extends WebApiBase {
     try {
       let searchUrl = `${UZUtils.removeTrailingSlash(
           this.webSite
-      )}/index.php/vod/search/page/${args.page}/wd/${args.searchWord}.html`;
+      )}/page/${args.page}/d/${args.searchWord}.html`;
       let repData = await req(searchUrl);
       this.checkVerify(searchUrl, repData.data);
       const $ = cheerio.load(repData.data);
